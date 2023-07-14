@@ -1,0 +1,28 @@
+.StudentsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+
+}
+
+.StudentsListHeaders {
+    background-color: rgba(229, 203, 172, 0.685);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding: 15px;
+    width: 100%;
+    list-style: none;
+    border: 6px solid #dcd623;
+    margin: 50px 0 0 0;
+}
+
+.StudentsListHeaders li {
+    border: 2px solid #000000;
+    padding: 15px;
+    width: calc(100%/6);
+}
